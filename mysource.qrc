@@ -1,0 +1,9 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/mai.jpg</file>
+        <file>images/物业管理.png</file>
+        <file>config/databaseConfig.ini</file>
+        <file>images/qrcode.jpg</file>
+        <file>propertymanagementsystem.rc</file>
+    </qresource>
+</RCC>
