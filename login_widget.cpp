@@ -17,8 +17,8 @@ Widget::Widget(QWidget *parent) :
 {
     ui->setupUi(this);
 
-    ui->label_title_2->setText("山东建筑大学毕业设计\n\n大麦场物业管理系统欢迎您！");
-    ui->textBrowser_deveInfo->setText("开发者信息\n\n开发者：张富云\n\n学  校：山东建筑大学\n\n学  号：20140815020");
+    ui->label_title_2->setText("**大学毕业设计\n\n大麦场物业管理系统欢迎您！");
+    ui->textBrowser_deveInfo->setText("开发者信息\n\n开发者：**\n\n学  校：**大学\n\n学  号：**********");
     ui->textBrowser_deveInfo->setAlignment(Qt::AlignCenter);
 
     m_AdmwinDialog = new admin_MainWindow(0);
