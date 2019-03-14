@@ -5,5 +5,6 @@
         <file>config/databaseConfig.ini</file>
         <file>images/qrcode.jpg</file>
         <file>propertymanagementsystem.rc</file>
+        <file>SQL/wygl.sql</file>
     </qresource>
 </RCC>
