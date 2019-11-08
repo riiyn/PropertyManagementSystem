@@ -26,7 +26,7 @@ admin_MainWindow::admin_MainWindow(QWidget *parent) :
     //设置状态栏
     QLabel *per = new QLabel(this);
     per->setFrameStyle(QFrame::Box | QFrame::Sunken);
-    per->setText("开发者：张富云   学校：山东建筑大学   学号：20140815020");
+    per->setText("开发者：***   学校：***   学号：***");
     per->setMinimumSize(400,30);
     ui->statusbar->addPermanentWidget(per);
 
@@ -94,7 +94,7 @@ void admin_MainWindow::receveData(QPushButton *btn){
     ui->lineEdit_name->setText(admindata->arealname);
     ui->lineEdit_tel->setText(admindata->tel);
 
-    ui->label_title->setText(tr("%1,欢迎使用大麦场！——山东建筑大学毕业设计").arg(admindata->arealname));
+    ui->label_title->setText(tr("%1,欢迎使用大麦场！——***毕业设计").arg(admindata->arealname));
 }
 
 void admin_MainWindow::receveXqManagerData(QPushButton *btn){
@@ -104,7 +104,7 @@ void admin_MainWindow::receveXqManagerData(QPushButton *btn){
     ui->lineEdit_logname->setText(xqmData->username);
     ui->lineEdit_name->setText(xqmData->name);
     ui->lineEdit_tel->setText(xqmData->tel);
-    ui->label_title->setText(tr("%1,欢迎使用大麦场！————山东建筑大学毕业设计").arg(xqmData->name));
+    ui->label_title->setText(tr("%1,欢迎使用大麦场！————***毕业设计").arg(xqmData->name));
 }
 
 
